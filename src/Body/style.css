@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+};
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+};
+
+.image {
+    margin: 5px;
+}
+
+img {
+    width: 400px;
+    height: 320px;
+    margin: 5px;
+};
+
+.description {
+    margin: 5px;
+}
+
+button {
+    height: 20px;
+    width: 80px;
+    align-self: flex-end;
+    border-radius: 8%;
+    border: 1px solid gray;
+    margin: 5px;
+    font-size: 15px;
+    background-color: transparent; 
+}
+
+.price {
+    margin: 5px;
+}

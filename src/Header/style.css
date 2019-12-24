@@ -1,0 +1,16 @@
+li {
+    flex-direction: row;
+    color: #496ca6;
+    padding: 5px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+ul {
+    width: auto;
+    height: 15px;
+    display: flex;
+    align-content: center;
+    list-style-type: none;
+};
+
